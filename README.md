@@ -9,11 +9,12 @@ Landing page for bachelor's thesis:
 
 ## Branching Strategy
 
-This project follows **Git Flow**:
-- `main` — production-ready releases only
-- `develop` — integration branch
-- `feature/*` — feature development branches
-- `release/*` — release preparation branches
+This project follows **GitLab Flow**:
+- `main` — primary integration branch, always deployable
+- `production` — stable production environment (deployed to GitHub Pages)
+- `feature/*` — feature development branches, merged into `main`
+
+Changes flow: `feature/*` → `main` → `production`
 
 ## Live Site
 
