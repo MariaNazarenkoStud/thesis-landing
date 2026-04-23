@@ -1,0 +1,27 @@
+{
+  "name": "thesis-landing",
+  "version": "1.0.0",
+  "description": "Landing page for bachelor thesis — brand identity information system",
+  "main": "index.js",
+  "scripts": {
+    "lint:html": "htmlhint index.html",
+    "lint:css": "stylelint \"css/style.css\"",
+    "lint": "npm run lint:html && npm run lint:css",
+    "lint:fix": "stylelint \"css/style.css\" --fix",
+    "check": "npm run lint",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-liba:MariaNazarenkoStud/thesis-landing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "htmlhint": "^1.9.2",
+    "husky": "^9.1.7",
+    "stylelint": "^17.9.0",
+    "stylelint-config-standard": "^40.0.0"
+  }
+}
