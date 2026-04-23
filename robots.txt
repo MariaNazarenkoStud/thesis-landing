@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://marianazarenkostud.github.io/thesis-landing/sitemap.xml
