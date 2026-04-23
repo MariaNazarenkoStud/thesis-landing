@@ -62,38 +62,258 @@
 
   <header class="site-header" role="banner">
     <div class="container">
+      <div class="header-inner">
+        <div class="university-logo" aria-label="Логотип Сумського державного університету">
+          <span class="logo-abbr">СумДУ</span>
+          <span class="logo-text">Сумський державний університет</span>
+        </div>
+        <nav class="header-nav" aria-label="Навігація по сторінці">
+          <ul role="list">
+            <li><a href="#relevance">Актуальність</a></li>
+            <li><a href="#goals">Мета і завдання</a></li>
+            <li><a href="#methodology">Методологія</a></li>
+            <li><a href="#results">Результати</a></li>
+            <li><a href="#contact">Контакти</a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
   </header>
 
   <main id="main-content" role="main">
 
+    <!-- Hero -->
     <section id="hero" class="hero" aria-labelledby="hero-title">
       <div class="container">
+        <div class="hero-content">
+          <div class="hero-badge" aria-label="Тип роботи">Бакалаврська робота · 2026</div>
+          <h1 id="hero-title" class="hero-title">
+            Інформаційна система<br>
+            інтерактивної презентації<br>
+            <span class="accent">айдентики бренду</span>
+          </h1>
+          <p class="hero-title-en" lang="en">
+            Information System for Interactive Brand Identity Presentation
+          </p>
+          <p class="hero-desc">
+            Розробка веб-орієнтованої інформаційної системи для інтерактивної демонстрації
+            елементів айдентики бренду з можливістю кастомізації та експорту матеріалів.
+          </p>
+          <div class="hero-keywords" aria-label="Ключові слова">
+            <span class="tag">Айдентика бренду</span>
+            <span class="tag">Інформаційна система</span>
+            <span class="tag">Інтерактивна презентація</span>
+            <span class="tag">Веб-застосунок</span>
+            <span class="tag">UX/UI дизайн</span>
+          </div>
+          <div class="hero-meta" aria-label="Інформація про автора">
+            <div class="hero-meta-item">
+              <span class="meta-label">Студентка</span>
+              <span class="meta-value">Назаренко М.А.</span>
+            </div>
+            <div class="hero-meta-item">
+              <span class="meta-label">Група</span>
+              <span class="meta-value">ІН-24</span>
+            </div>
+            <div class="hero-meta-item">
+              <span class="meta-label">Кафедра</span>
+              <span class="meta-value">Комп'ютерних наук</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="brand-showcase">
+            <div class="brand-circle bc1"></div>
+            <div class="brand-circle bc2"></div>
+            <div class="brand-circle bc3"></div>
+            <div class="brand-type">Aa</div>
+            <div class="brand-palette">
+              <span></span><span></span><span></span><span></span>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
+    <!-- Relevance -->
     <section id="relevance" class="section" aria-labelledby="relevance-title">
       <div class="container">
+        <h2 id="relevance-title" class="section-title">Актуальність теми</h2>
+        <div class="relevance-grid">
+          <div class="relevance-text">
+            <p>
+              В умовах цифрової трансформації бізнесу бренд-айдентика стає ключовим
+              конкурентним інструментом. Однак більшість існуючих рішень для презентації
+              брендбуку є статичними PDF-документами або дорогими SaaS-платформами,
+              недоступними для малого та середнього бізнесу.
+            </p>
+            <p>
+              Відсутність доступних інтерактивних інструментів створює потребу у розробці
+              системи, яка поєднує візуальну привабливість із практичною функціональністю
+              і є доступною для широкого кола користувачів.
+            </p>
+          </div>
+          <div class="relevance-stats" role="list" aria-label="Статистика ринку">
+            <div class="stat-card" role="listitem">
+              <span class="stat-number" aria-label="73 відсотки">73%</span>
+              <span class="stat-desc">компаній не мають цифрового брендбуку</span>
+            </div>
+            <div class="stat-card" role="listitem">
+              <span class="stat-number" aria-label="2,4 мільярди доларів">$2.4B</span>
+              <span class="stat-desc">ринок brand management software до 2027 р.</span>
+            </div>
+            <div class="stat-card" role="listitem">
+              <span class="stat-number" aria-label="3,5 рази">3.5×</span>
+              <span class="stat-desc">зростання попиту на брендинг-рішення за 3 роки</span>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
+    <!-- Goals -->
     <section id="goals" class="section section-dark" aria-labelledby="goals-title">
       <div class="container">
+        <h2 id="goals-title" class="section-title">Мета та завдання дослідження</h2>
+        <div class="goal-box">
+          <h3 class="goal-heading">Мета роботи</h3>
+          <p class="goal-text">
+            Розробити інформаційну систему, що забезпечує інтерактивну презентацію елементів
+            айдентики бренду з можливістю динамічного налаштування кольорових схем,
+            типографіки та графічних елементів у реальному часі.
+          </p>
+        </div>
+        <h3 class="tasks-heading">Основні завдання</h3>
+        <ol class="tasks-list" role="list">
+          <li role="listitem">
+            <span class="task-num" aria-hidden="true">01</span>
+            <div>
+              <strong>Аналіз предметної галузі</strong>
+              <p>Дослідження існуючих систем управління брендом, визначення їх переваг та недоліків, формування вимог до розроблюваної системи.</p>
+            </div>
+          </li>
+          <li role="listitem">
+            <span class="task-num" aria-hidden="true">02</span>
+            <div>
+              <strong>Проєктування архітектури системи</strong>
+              <p>Розробка структури бази даних, UML-діаграм та прототипів інтерфейсу користувача з дотриманням принципів User-Centered Design.</p>
+            </div>
+          </li>
+          <li role="listitem">
+            <span class="task-num" aria-hidden="true">03</span>
+            <div>
+              <strong>Реалізація модуля інтерактивної презентації</strong>
+              <p>Розробка веб-компонентів для динамічного відображення логотипу, палітри кольорів, шрифтів та інших елементів айдентики.</p>
+            </div>
+          </li>
+          <li role="listitem">
+            <span class="task-num" aria-hidden="true">04</span>
+            <div>
+              <strong>Реалізація модуля кастомізації та експорту</strong>
+              <p>Впровадження функціоналу редагування елементів брендбуку в реальному часі та їх експорту у форматах PNG, SVG і PDF.</p>
+            </div>
+          </li>
+          <li role="listitem">
+            <span class="task-num" aria-hidden="true">05</span>
+            <div>
+              <strong>Тестування та оцінка якості</strong>
+              <p>Проведення функціонального та юзабіліті-тестування, перевірка відповідності стандартам доступності WCAG 2.1 рівня AA.</p>
+            </div>
+          </li>
+        </ol>
       </div>
     </section>
 
+    <!-- Methodology -->
     <section id="methodology" class="section" aria-labelledby="methodology-title">
       <div class="container">
+        <h2 id="methodology-title" class="section-title">Методологія дослідження</h2>
+        <div class="methods-grid">
+          <article class="method-card" aria-labelledby="method-1">
+            <div class="method-icon" aria-hidden="true">🔍</div>
+            <h3 id="method-1">Аналіз та синтез</h3>
+            <p>Вивчення наукових публікацій, технічної документації та огляд ринкових рішень у сфері brand management і digital identity.</p>
+          </article>
+          <article class="method-card" aria-labelledby="method-2">
+            <div class="method-icon" aria-hidden="true">📐</div>
+            <h3 id="method-2">Системне проєктування</h3>
+            <p>Застосування методології UML для проєктування архітектури системи, моделювання бізнес-процесів та потоків даних.</p>
+          </article>
+          <article class="method-card" aria-labelledby="method-3">
+            <div class="method-icon" aria-hidden="true">⚙️</div>
+            <h3 id="method-3">Agile-розробка</h3>
+            <p>Ітеративна розробка з використанням Scrum-підходу: короткі спринти, регулярний перегляд результатів та адаптація.</p>
+          </article>
+          <article class="method-card" aria-labelledby="method-4">
+            <div class="method-icon" aria-hidden="true">✅</div>
+            <h3 id="method-4">Тестування якості</h3>
+            <p>Функціональне, регресійне та юзабіліті-тестування з залученням представників цільової аудиторії.</p>
+          </article>
+        </div>
       </div>
     </section>
 
+    <!-- Results -->
     <section id="results" class="section section-accent" aria-labelledby="results-title">
       <div class="container">
+        <h2 id="results-title" class="section-title">Очікувані результати</h2>
+        <ul class="results-list" role="list">
+          <li role="listitem">
+            <span class="result-icon" aria-hidden="true">✦</span>
+            <span>Функціональна веб-система інтерактивної презентації елементів айдентики бренду</span>
+          </li>
+          <li role="listitem">
+            <span class="result-icon" aria-hidden="true">✦</span>
+            <span>Модуль динамічної кастомізації кольорових схем та типографіки у реальному часі</span>
+          </li>
+          <li role="listitem">
+            <span class="result-icon" aria-hidden="true">✦</span>
+            <span>Функція експорту елементів брендбуку у форматах PNG, SVG та PDF</span>
+          </li>
+          <li role="listitem">
+            <span class="result-icon" aria-hidden="true">✦</span>
+            <span>Адаптивний інтерфейс із відповідністю стандартам доступності WCAG 2.1 (рівень AA)</span>
+          </li>
+          <li role="listitem">
+            <span class="result-icon" aria-hidden="true">✦</span>
+            <span>Порівняльний аналіз існуючих рішень та обґрунтування переваг розробленої системи</span>
+          </li>
+        </ul>
       </div>
     </section>
 
+    <!-- Contact -->
     <section id="contact" class="section" aria-labelledby="contact-title">
       <div class="container">
+        <h2 id="contact-title" class="section-title">Контактна інформація</h2>
+        <div class="contact-grid">
+          <address class="contact-card" aria-label="Контактна інформація автора">
+            <h3>Автор роботи</h3>
+            <dl>
+              <dt>ПІБ</dt>
+              <dd>Назаренко Марія Анатоліївна</dd>
+              <dt>Група</dt>
+              <dd>ІН-24</dd>
+              <dt>Email</dt>
+              <dd><a href="mailto:nazarenkomashash@gmail.com">nazarenkomashash@gmail.com</a></dd>
+              <dt>GitHub</dt>
+              <dd><a href="https://github.com/MariaNazarenkoStud" target="_blank" rel="noopener noreferrer">MariaNazarenkoStud</a></dd>
+            </dl>
+          </address>
+          <address class="contact-card" aria-label="Інформація про університет">
+            <h3>Університет</h3>
+            <dl>
+              <dt>Заклад</dt>
+              <dd>Сумський державний університет</dd>
+              <dt>Факультет</dt>
+              <dd>Електроніки та інформаційних технологій</dd>
+              <dt>Кафедра</dt>
+              <dd>Комп'ютерних наук</dd>
+              <dt>Сайт</dt>
+              <dd><a href="https://sumdu.edu.ua" target="_blank" rel="noopener noreferrer">sumdu.edu.ua</a></dd>
+            </dl>
+          </address>
+        </div>
       </div>
     </section>
 
@@ -101,6 +321,7 @@
 
   <footer class="site-footer" role="contentinfo">
     <div class="container">
+      <p>© 2026 Назаренко Марія Анатоліївна · Сумський державний університет · Кафедра комп'ютерних наук</p>
     </div>
   </footer>
 
