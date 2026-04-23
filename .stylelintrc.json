@@ -1,0 +1,15 @@
+{
+  "extends": "stylelint-config-standard",
+  "rules": {
+    "color-hex-length": "short",
+    "comment-empty-line-before": "always",
+    "no-duplicate-selectors": true,
+    "selector-pseudo-element-colon-notation": "double",
+    "alpha-value-notation": "number",
+    "color-function-notation": "modern"
+  },
+  "ignoreFiles": [
+    "css/reset.css",
+    "node_modules/**"
+  ]
+}
