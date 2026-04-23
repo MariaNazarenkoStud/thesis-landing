@@ -46,6 +46,13 @@ html {
 }
 
 /* ============================================================
+   Typography
+   ============================================================ */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-white);
+}
+
+/* ============================================================
    Skip Link (accessibility)
    ============================================================ */
 .skip-link {
@@ -553,6 +560,7 @@ html {
   gap: 1rem;
 }
 
+/* stylelint-disable-next-line no-descending-specificity */
 .results-list li {
   display: flex;
   align-items: flex-start;
@@ -623,6 +631,7 @@ html {
   color: var(--color-text);
 }
 
+/* stylelint-disable-next-line no-descending-specificity */
 .contact-card a {
   color: var(--color-primary-light);
   transition: color var(--transition);
@@ -645,13 +654,6 @@ html {
   text-align: center;
   font-size: 0.8rem;
   color: var(--color-text-muted);
-}
-
-/* ============================================================
-   Typography
-   ============================================================ */
-h1, h2, h3, h4, h5, h6 {
-  color: var(--color-white);
 }
 
 /* ============================================================
